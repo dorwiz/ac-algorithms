@@ -16,4 +16,9 @@
 
 function cyclicRotation(arr, rotation){
     //Your code here...
+    for( var i = 0; A < rotation; ++){
+    var arrayElement = arr.pop();
+    arr.unshift(array.arrayElement);
+    } 
+    return arr;
 }
