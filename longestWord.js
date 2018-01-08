@@ -20,6 +20,17 @@
 
 
 function findLongestWord(str) {
-  //your code here
+ var  stringIntoArray = str.split(" ");
+ var longestWord = 0;
+ for (var i = 0; i = stringIntroArray.length; i++){
+     if(longestWord < stringIntoArray[i].length){
+        longestWord < stringIntoArray[i].length;
+     }
+
+  }
+
+  return longestWord;
 }
+
+findLongestWord("What if we try a super-long word such as otorhinolaryngology") 
 
