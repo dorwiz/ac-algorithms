@@ -25,6 +25,28 @@ console.log(result) // "1-3"
 
 **/
 
-function dashInsert(str) {
-	// Your code
+function dashInsert(number) {
+	// Change the parameter to a string.
+	var array = number.toString().split("");
+	// Change a the string into an array usin .split()
+	// Create a variables to store final output.
+	var output = "";
+	// Use modulus to test to see if the numbers are even or odd.
+	// Use a for loop to go through the array of numbers and test to see if they odd
+	 for ( var i = 0; i < myArray.length; i++ ){
+
+	  
+	// && opeatorto test two conditon:1) if the number if odd, 2( if the
+	//number after that odd as well.
+	if ( myArray[i] % 2 === 1 && myArray[ i + 1] % 2 === 1){
+			output = output + myArray[i] + "-";
+		} else {
+			output = output + myArray[i];
+		}
+	// If both conditon are met, we want to insert the dash
+	// If conditons are false , we just want to add the number to the final output
+	console.log(output);
+	
+	}		
+
 }
