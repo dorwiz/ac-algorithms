@@ -36,7 +36,7 @@ function dashInsert(number) {
 	 for ( var i = 0; i < myArray.length; i++ ){
 
 	  
-	// && opeatorto test two conditon:1) if the number if odd, 2( if the
+	// && opeatort to test two conditon:1) if the number if odd, 2( if the
 	//number after that odd as well.
 	if ( myArray[i] % 2 === 1 && myArray[ i + 1] % 2 === 1){
 			output = output + myArray[i] + "-";
