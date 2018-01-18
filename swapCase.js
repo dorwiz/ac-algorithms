@@ -29,6 +29,26 @@ console.log(result) // "oH, hELLO!!"
 
 **/
 
+
 function swapCase(str) {
-	// Your code
+	//your code
+	var myArray = str.split("");
+	var output = "";
+	for ( var i = 0; i < myArray.length; i++){
+
+		if ( myArray[i] === myArray[i].toUpperCase()){
+			output = output + myArray[i].toUpperCase();
+			//output += myArray[i].toUpperCase();
+
+		} else {
+			output += myArray[i].toUpperCase();
+		}
+	}
+
+	return output;
+	var poem = swapCase("To be or not to be"); 
+	console.log(output);
+	
+ 
+
 }
