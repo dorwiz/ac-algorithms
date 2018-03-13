@@ -33,24 +33,22 @@ console.log(result) // "ghimmnorstyy"
 
 **/
 
-function alphabetSoup(D, C, B ,F, G) {
+function alphabetSoup(str) {
 	//Your code here
 	var  newString = str.split('').sort().join('');
-		return newstring;
-		
-	console.log(alphabetSoup);
+	return newString;
 }
 
-function alphabetSoup(D, C, B, F, G) {
+function alphabetSoup(str) {
 	//Your code here
 	var abcSoup = alphabetSoup.split("");
 	console.log(alphabetSoup);
 	 
 }
 
-function alphabetSoup(D, C, B, F, G) {
+function alphabetSoup(str) {
 	//Your code here
- 
+	
 	console.log(alphabetSoup.join());
 }
 
