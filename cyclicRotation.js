@@ -13,12 +13,13 @@
 //that, given a zero-indexed array A consisting of N integers and an integer K, returns the array A rotated K times.
 //
 //    For example, given array A = [3, 8, 9, 7, 6] and K = 3, the function should return [9, 7, 6, 3, 8].\
-
+     
 function cyclicRotation(arr, rotation){
     //Your code here...
-    for( var i = 0; A < rotation; ++){
+    for ( var i = 0;  i < rotation; i++) {
     var arrayElement = arr.pop();
-    arr.unshift(array.arrayElement);
+    arr.unshift(arrayElement);
     } 
     return arr;
-}
+};
+cyclicRotation([3, 8, 9, 7, 6], 3);
